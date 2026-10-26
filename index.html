@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Descubre a Rayquaza, Sceptile y Gardevoir.">
+
+    <title>Pokédex | Pokémon</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="container my-4">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark rounded-3">
+            <div class="container">
+                <a class="navbar-brand" href="#inicio">Pokédex</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Abrir navegación">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link active" href="#inicio">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="Paginas/Rayquaza.html">Rayquaza</a></li>
+                        <li class="nav-item"><a class="nav-link" href="Paginas/Sceptile.html">Sceptile</a></li>
+                        <li class="nav-item"><a class="nav-link" href="Paginas/Gardevoir.html">Gardevoir</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <main id="inicio" class="my-5">
+            <header class="page-heading text-center text-white mb-5">
+                <p class="eyebrow mb-2">Una pequeña Pokédex</p>
+                <h1>Tres Pokémon, tres estilos</h1>
+                <p class="lead">Conoce a Rayquaza, Sceptile y Gardevoir.</p>
+            </header>
+
+            <div class="row g-4">
+                <div class="col-sm-12 col-md-6 col-lg-4" id="rayquaza">
+                    <article class="card pokemon-card pokemon-rayquaza m-3 shadow-sm h-100">
+                        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/384.png" class="card-img-top" alt="Rayquaza, Pokémon legendario de tipo Dragón y Volador" loading="lazy">
+                        <div class="card-body text-center">
+                            <span class="badge rounded-pill pokemon-type type-rayquaza mb-3">Dragón · Volador</span>
+                            <h2 class="card-title"><a href="Paginas/Rayquaza.html" class="stretched-link card-link">Rayquaza</a></h2>
+                            <p class="card-text">Este Pokémon legendario surca la capa de ozono. Desciende cuando Groudon y Kyogre amenazan con enfrentarse.</p>
+                            <a href="Paginas/Rayquaza.html" class="btn btn-primary btn-pokemon">Més informació</a>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4" id="sceptile">
+                    <article class="card pokemon-card pokemon-sceptile m-3 shadow-sm h-100">
+                        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/254.png" class="card-img-top" alt="Sceptile, Pokémon de tipo Planta" loading="lazy">
+                        <div class="card-body text-center">
+                            <span class="badge rounded-pill pokemon-type type-sceptile mb-3">Planta</span>
+                            <h2 class="card-title"><a href="Paginas/Sceptile.html" class="stretched-link card-link">Sceptile</a></h2>
+                            <p class="card-text">Sceptile es ágil y vive en los bosques. Las hojas de su cola afilada y las semillas de su espalda lo ayudan en combate.</p>
+                            <a href="Paginas/Sceptile.html" class="btn btn-primary btn-pokemon">Més informació</a>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4" id="gardevoir">
+                    <article class="card pokemon-card pokemon-gardevoir m-3 shadow-sm h-100">
+                        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/282.png" class="card-img-top" alt="Gardevoir, Pokémon de tipo Psíquico y Hada" loading="lazy">
+                        <div class="card-body text-center">
+                            <span class="badge rounded-pill pokemon-type type-gardevoir mb-3">Psíquico · Hada</span>
+                            <h2 class="card-title"><a href="Paginas/Gardevoir.html" class="stretched-link card-link">Gardevoir</a></h2>
+                            <p class="card-text">Gardevoir puede anticipar el futuro y siente un gran vínculo con su Entrenador. Protege a quienes considera importantes.</p>
+                            <a href="Paginas/Gardevoir.html" class="btn btn-primary btn-pokemon">Més informació</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </main>
+        <footer class="site-footer text-center rounded-3 mt-5 py-3 px-3">
+            <p class="mb-0">Pokédex Pokémon · Proyecto de Bootstrap</p>
+        </footer>
+    </div>
+    <div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
+
+
+
+
