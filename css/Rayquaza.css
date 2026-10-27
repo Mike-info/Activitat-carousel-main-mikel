@@ -33,6 +33,34 @@ body.rayquaza-page {
   height: 240px;
 }
 
+.evolution-carousel {
+  max-width: 760px;
+  margin-inline: auto;
+  overflow: hidden;
+  border-radius: 0.75rem;
+  background: linear-gradient(145deg, #183c43, #b8aa39);
+}
+
+.evolution-carousel .carousel-item img {
+  height: clamp(240px, 45vw, 420px);
+  object-fit: contain;
+  padding: 1.5rem;
+}
+
+.evolution-carousel .carousel-caption {
+  right: 25%;
+  bottom: 1rem;
+  left: 25%;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  background: rgba(16, 27, 45, 0.8);
+}
+
+.evolution-carousel .carousel-caption h2 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
 .pokemon-card .card-body {
   display: flex;
   flex-direction: column;
